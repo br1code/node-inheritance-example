@@ -1,7 +1,7 @@
 const EventEmitter = require("events");
 const util = require("util");
 
-// Traditional example --------------------------
+// util.inherits example --------------------------
 
 function Greetr() {
     this.greeting = "Hello friend!";
