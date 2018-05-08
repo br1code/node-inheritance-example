@@ -7,7 +7,8 @@ function Greetr() {
     EventEmitter.call(this);
     this.greeting = "Hello friend!";
 }
-
+/* util.inherits just connect the prototypes, make sure to
+    add EventEmitter as 'superconstructor' */
 util.inherits(Greetr, EventEmitter);
 
 Greetr.prototype.greet = function(data) {
